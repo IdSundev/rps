@@ -1,0 +1,74 @@
+1. Login Page
+	Link: https://rewards.badjaabadisentosa.com/login
+
+2. Welcome Page
+	Link:  https://rewards.badjaabadisentosa.com/admin/home
+
+2. Customers Page
+	Link: https://rewards.badjaabadisentosa.com/admin/customers
+
+4. Add Customers Page
+	Link: https://rewards.badjaabadisentosa.com/admin/customers/add
+
+5. Edit Customers Page
+	Link: https://rewards.badjaabadisentosa.com/admin/customers/{id}/edit
+
+6. Reward Message Page
+	Link: https://rewards.badjaabadisentosa.com/admin/messages/reward
+
+7. Birthday Message Page
+	Link: https://rewards.badjaabadisentosa.com/admin/messages/birthday
+
+8. Reminder Message Page
+	Link: https://rewards.badjaabadisentosa.com/admin/messages/reminder
+
+9. Point Rules Page
+	Link: https://rewards.badjaabadisentosa.com/admin/rules
+
+10. Broadcast Point Page
+	Link: https://rewards.badjaabadisentosa.com/admin/broadcast/point
+
+11. Broadcast Promo Page
+	Link: https://rewards.badjaabadisentosa.com/admin/broadcast/promo
+
+12. Broadcast Advertisement Page
+	Link: https://rewards.badjaabadisentosa.com/admin/broadcast/advertisement
+
+13. Service Page
+	Link: https://rewards.badjaabadisentosa.com/admin/services
+
+14. Add Service Page
+	Link: https://rewards.badjaabadisentosa.com/admin/services/add
+
+15. Detail Service Page /History Service Page
+	Link: https://rewards.badjaabadisentosa.com/admin/services/{id_service}
+
+16. Redeem Voucher Page
+	Link: https://rewards.badjaabadisentosa.com/admin/redeem/vouchers
+
+17. Add Redeem Voucher Page
+	Link: https://rewards.badjaabadisentosa.com/admin/redeem/vouchers/add
+
+18. Edit Redeem Voucher Page
+	Link: https://rewards.badjaabadisentosa.com/admin/redeem/vouchers/{id}/edit
+
+19. Detail Voucher Page
+	Link: https://rewards.badjaabadisentosa.com/admin/redeem/vouchers/{id}
+
+20. Redeem Item Page
+	Link: https://rewards.badjaabadisentosa.com/admin/redeem/items
+
+21. Add Redeem Item Page
+	Link: https://rewards.badjaabadisentosa.com/admin/redeem/items/add
+
+22. Edit Redeem Item Page
+	Link: https://rewards.badjaabadisentosa.com/admin/redeem/items/{id}/edit
+
+23. Detail Item Page
+	Link: https://rewards.badjaabadisentosa.com/admin/redeem/items/{id}
+
+24. Settings Admin Page
+	Link: https://rewards.badjaabadisentosa.com/admin/settings
+
+25. Member Page
+	Link: https://rewards.badjaabadisentosa.com/member/redeem/{token}

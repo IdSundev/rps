@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="./images/images/bas_32.jpg" type="image/jpg" sizes="32x32" />
+    <link rel="shortcut icon" href="./images/images/bas_64.jpg" type="image/jpg" sizes="64x64" />
+
+    <title>Reward Points Systems</title>
+
+    <!-- Vendors Style-->
+    <link rel="stylesheet" href="./css/vendors_home.css" />
+
+    <!-- Style-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/skin_color.css" />
+</head>
+
+<body class="hold-transition light-skin sidebar-mini theme-primary fixed">
+    <div class="wrapper">
+        <div id="loader"></div>
+
+        <header class="main-header">
+            <div class="d-flex align-items-center logo-box justify-content-start">
+                <a href="#"
+                    class="waves-effect waves-light nav-link d-none d-md-inline-block mx-10 push-btn bg-transparent"
+                    data-toggle="push-menu" role="button">
+                    <span class="icon-Align-left"><span class="path1"></span><span class="path2"></span><span
+                            class="path3"></span></span>
+                </a>
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <!-- logo-->
+                    <div class="logo-lg">
+                        <span class="light-logo"><img src="./images/images/logo-dark-text.png" alt="logo" /></span>
+                    </div>
+                </a>
+            </div>
+            <!-- Header Navbar -->
+            <nav class="navbar navbar-static-top">
+                <!-- Sidebar toggle button-->
+                <div class="app-menu">
+                    <ul class="header-megamenu nav">
+                        <li class="btn-group nav-item d-md-none">
+                            <a href="#" class="waves-effect waves-light nav-link push-btn" data-toggle="push-menu"
+                                role="button">
+                                <span class="icon-Align-left"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span></span>
+                            </a>
+                        </li>
+                        <li class="btn-group nav-item d-none d-xl-inline-block">
+                            <div class="search-bx mx-5">
+                                <div class="input-group">
+                                    <input type="search" class="form-control" placeholder="Transactions"
+                                        aria-label="Search" aria-describedby="button-addon2" />
+                                    <div class="input-group-append">
+                                        <button class="btn" id="button-addon3" data-bs-toggle="modal"
+                                            data-bs-target=".modal-calculator">
+                                            <i class="icon-Calculator"><span class="path1"></span><span
+                                                    class="path2"></span></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar-custom-menu r-side">
+                    <ul class="nav navbar-nav">
+                        <!-- Service Notifications -->
+                        <li class="dropdown notifications-menu">
+                            <a href="#" class="waves-effect waves-light dropdown-toggle" data-bs-toggle="dropdown"
+                                title="Notifications">
+                                <i class="icon-Tools"><span class="path1"></span><span class="path2"></span></i>
+                            </a>
+                            <ul class="dropdown-menu animated bounceIn">
+                                <li class="header">
+                                    <div class="p-20">
+                                        <div class="flexbox">
+                                            <div>
+                                                <h4 class="mb-0 mt-0">Service Reminder</h4>
+                                            </div>
+                                            <div>
+                                                <span class="badge badge-primary">12</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <!-- inner menu: contains the actual data -->
+                                    <ul class="menu sm-scrol">
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-danger">H-1</span> [barang] di [customer]
+                                                terakhir dikalibrasi pada [last_service]
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-danger">H-2</span> [barang] di [customer]
+                                                terakhir dikalibrasi pada [last_service]
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-danger">H-3</span> [barang] di [customer]
+                                                terakhir dikalibrasi pada [last_service]
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-info">H-9</span> [barang] di [customer]
+                                                terakhir dikalibrasi pada [last_service]
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-info">H-10</span> [barang] di [customer]
+                                                terakhir dikalibrasi pada [last_service]
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-info">H-11</span> [barang] di [customer]
+                                                terakhir dikalibrasi pada [last_service]
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-info">H-12</span> [barang] di [customer]
+                                                terakhir dikalibrasi pada [last_service]
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer">
+                                    <a href="#">View all</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Birthday Notifications -->
+                        <li class="dropdown notifications-menu">
+                            <a href="#" class="waves-effect waves-light dropdown-toggle" data-bs-toggle="dropdown"
+                                title="Notifications">
+                                <i class="icon-Gift"><span class="path1"></span><span class="path2"></span></i>
+                            </a>
+                            <ul class="dropdown-menu animated bounceIn">
+                                <li class="header">
+                                    <div class="p-20">
+                                        <div class="flexbox">
+                                            <div>
+                                                <h4 class="mb-0 mt-0">Birthday Notifications</h4>
+                                            </div>
+                                            <div>
+                                                <span class="badge badge-danger">7</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <!-- inner menu: contains the actual data -->
+                                    <ul class="menu md-scrol">
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-success" title="Point Terkirim"><i
+                                                        class="icon-Location-arrow"><span class="path1"></span><span
+                                                            class="path2"></span></i></span> PT. Alim Rugi 29 Januari
+                                                2001
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-warning" title="Kirim Point"><i
+                                                        class="icon-Direction"><span class="path1"></span><span
+                                                            class="path2"></span></i></span> PT. Hoyong Untung 11
+                                                Februari 2012
+                                            </a>
+                                        </li>
+                                        <li class="bg-secondary">
+                                            <a href="#">
+                                                <span class="badge badge-danger" title="Ulang Tahun"><i
+                                                        class="icon-Gift"><span class="path1"></span><span
+                                                            class="path2"></span></i></span> <span
+                                                    class="badge badge-warning" title="Kirim Point"><i
+                                                        class="icon-Direction"><span class="path1"></span><span
+                                                            class="path2"></span></i></span> PT. Hoyong Untung 11
+                                                Februari 2012
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-info">H-1</span> PT. Alim Rugi 13 Januari 2007
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-info">H-2</span> PT. Alim Rugi 23 Januari 2004
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-info">H-3</span> PT. Alim Rugi 22 Januari 2002
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-info">H-4</span> PT. Alim Rugi 18 Januari 2008
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer">
+                                    <a href="#">View all</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Redeem Notifications -->
+                        <li class="dropdown notifications-menu">
+                            <a href="#" class="waves-effect waves-light dropdown-toggle" data-bs-toggle="dropdown"
+                                title="Notifications">
+                                <i class="icon-Barcode"><span class="path1"></span><span class="path2"></span></i>
+                            </a>
+                            <ul class="dropdown-menu animated bounceIn">
+                                <li class="header">
+                                    <div class="p-20">
+                                        <div class="flexbox">
+                                            <div>
+                                                <h4 class="mb-0 mt-0">Redeem Notifications</h4>
+                                            </div>
+                                            <div>
+                                                <span class="badge badge-warning">7</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <!-- inner menu: contains the actual data -->
+                                    <ul class="menu sm-scrol">
+                                        <li class="bg-danger-light">
+                                            <a href="#">
+                                                <span class="badge badge-danger">Kirim</span> Customer 4 telah
+                                                mengeklaim items
+                                            </a>
+                                        </li>
+                                        <li class="bg-danger-light">
+                                            <a href="#">
+                                                <span class="badge badge-danger">Kirim</span> Customer 5 telah
+                                                mengeklaim items
+                                            </a>
+                                        </li>
+                                        <li class="bg-danger-light">
+                                            <a href="#">
+                                                <span class="badge badge-danger">Kirim</span> Customer 4 telah
+                                                mengeklaim items
+                                            </a>
+                                        </li>
+                                        <li class="bg-danger-light">
+                                            <a href="#">
+                                                <span class="badge badge-danger">Kirim</span> Customer 5 telah
+                                                mengeklaim items
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-warning" title="Voucher"><i
+                                                        class="icon-Price"><span class="path1"></span><span
+                                                            class="path2"></span></i></span>
+                                                Customer 1 telah mengeklaim voucher Indomart
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-warning" title="Voucher"><i
+                                                        class="icon-Price"><span class="path1"></span><span
+                                                            class="path2"></span></i></span>
+                                                Customer 2 telah mengeklaim voucher Indomart
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-warning" title="Voucher"><i
+                                                        class="icon-Price"><span class="path1"></span><span
+                                                            class="path2"></span></i></span>
+                                                Customer 3 telah mengeklaim voucher Indomart
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer">
+                                    <a href="#">View all</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- User Account-->
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="waves-effect waves-light dropdown-toggle" data-bs-toggle="dropdown"
+                                title="User">
+                                <i class="icon-User"><span class="path1"></span><span class="path2"></span></i>
+                            </a>
+                            <ul class="dropdown-menu animated flipInX">
+                                <li class="user-body">
+                                    <a class="dropdown-item" href="#"><i class="ti-settings text-muted me-2"></i>
+                                        Settings</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><i class="ti-lock text-muted me-2"></i> Logout</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <aside class="main-sidebar">
+            <!-- sidebar-->
+            <section class="sidebar position-relative">
+                <div class="multinav">
+                    <div class="multinav-scroll" style="height: 100%">
+                        <!-- sidebar menu-->
+                        <ul class="sidebar-menu" data-widget="tree">
+                            <li class="header">HOME</li>
+                            <li class="treeview">
+                                <a href="themplate.html">
+                                    <i class="icon-Deer"><span class="path1"></span><span class="path2"></span></i>
+                                    <span>Welcome</span>
+                                </a>
+                            </li>
+                            <li class="header">APPS</li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="icon-Barcode"><span class="path1"></span><span class="path2"></span></i>
+                                    <span>Redeem Point</span>
+                                    <span class="pull-right-container">
+                                        <i class="fa fa-angle-right pull-right"></i>
+                                    </span>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li>
+                                        <a href="#"><i class="icon-Money"><span class="path1"></span><span
+                                                    class="path2"></span></i>Vouchers</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html"><i class="icon-Cart2"><span class="path1"></span><span
+                                                    class="path2"></span></i>Items</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="icon-LTE1"><span class="path1"></span><span class="path2"></span></i>
+                                    <span>Broadcast</span>
+                                    <span class="pull-right-container">
+                                        <i class="fa fa-angle-right pull-right"></i>
+                                    </span>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li>
+                                        <a href="#"><i class="icon-Crown"><span class="path1"></span><span
+                                                    class="path2"></span></i>Points</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html"><i class="icon-245"><span class="path1"></span><span
+                                                    class="path2"></span></i>Promo</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html"><i class="icon-Sale"><span class="path1"></span><span
+                                                    class="path2"></span></i>Advertisement</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="icon-Group"><span class="path1"></span><span class="path2"></span></i>
+                                    <span>Customers</span>
+                                </a>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="icon-Tools"><span class="path1"></span><span class="path2"></span></i>
+                                    <span>Services</span>
+                                </a>
+                            </li>
+                            <li class="header">MASTER DATA</li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="icon-Group-chat"><span class="path1"></span><span
+                                            class="path2"></span></i>
+                                    <span>Default Messages</span>
+                                    <span class="pull-right-container">
+                                        <i class="fa fa-angle-right pull-right"></i>
+                                    </span>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li>
+                                        <a href="#"><i class="icon-Crown"><span class="path1"></span><span
+                                                    class="path2"></span></i>Reward</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html"><i class="icon-Gift"><span class="path1"></span><span
+                                                    class="path2"></span></i>Birthday</a>
+                                    </li>
+                                    <li>
+                                        <a href="index3.html"><i class="icon-Tools"><span class="path1"></span><span
+                                                    class="path2"></span></i>Reminder</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="icon-Bold"><span class="path1"></span><span class="path2"></span></i>
+                                    <span>Point Rules</span>
+                                </a>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="icon-Box3"><span class="path1"></span><span class="path2"></span></i>
+                                    <span>Products</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="sidebar-footer">
+                <a href="javascript:void(0)" class="link" data-bs-toggle="tooltip" title="Settings"><span
+                        class="icon-Settings-2"></span></a>
+                <a href="mailbox.html" class="link" data-bs-toggle="tooltip" title="Email"><span
+                        class="icon-Mail"></span></a>
+                <a href="javascript:void(0)" class="link" data-bs-toggle="tooltip" title="Logout"><span
+                        class="icon-Lock-overturning"><span class="path1"></span><span class="path2"></span></span></a>
+            </div>
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <div class="container-full">
+                <!-- Content Header (Page header) -->
+                <div class="content-header">
+                    <div class="d-flex align-items-center">
+                        <div class="me-auto">
+                            <h3 class="page-title">Customers</h3>
+                            <div class="d-inline-block align-items-center">
+                                <nav>
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#"><i class="icon-Deer"><span
+                                                        class="path1"></span><span class="path2"></span></i></a>
+                                        </li>
+                                        <li class="breadcrumb-item" aria-current="page">APPS</li>
+                                        <li class="breadcrumb-item" aria-current="page">Customers</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Edit</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main content -->
+                <section class="content">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="box">
+                                <div class="box-header with-border">
+                                    <h4 class="box-title">Edit Customer Form</h4>
+                                </div>
+                                <!-- /.box-header -->
+                                <form class="form">
+                                    <div class="box-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="form-label">PT/ Customer Name</label>
+                                                    <div class="input-group mb-3">
+                                                        <input type="text" class="form-control" placeholder="Name">
+                                                        <span class="input-group-text"><i class="icon-Group"><span class="path1"></span><span class="path2"></span></i></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="form-label">Username</label>
+                                                    <div class="input-group mb-3">
+                                                        <input type="text" class="form-control" placeholder="username">
+                                                        <span class="input-group-text"><i class="icon-User"><span class="path1"></span><span class="path2"></span></i></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="form-label">WhatsApp</label>
+                                                    <div class="input-group mb-3">
+                                                        <input type="text" class="form-control" placeholder="Whatsapp">
+                                                        <span class="input-group-text"><i class="icon-Call"><span class="path1"></span><span class="path2"></span></i></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="form-label">E-mail</label>
+                                                    <div class="input-group mb-3">
+                                                        <input type="text" class="form-control" placeholder="E-mail">
+                                                        <span class="input-group-text"><i class="icon-Mail"><span class="path1"></span><span class="path2"></span></i></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label">Birthday</label>
+                                            <div class="input-group mb-3">
+                                                <input type="date" class="form-control" placeholder="Company Name">
+                                                <span class="input-group-text"><i class="icon-Layout-top-panel-1"><span class="path1"></span><span class="path2"></span></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label">Address</label>
+                                            <textarea rows="5" class="form-control"
+                                                placeholder="About Project">Type here</textarea>
+                                        </div>
+                                    </div>
+                                    <!-- /.box-body -->
+                                    <div class="box-footer">
+                                        <button class="btn btn-warning btn-sm me-1" type="reset">
+                                            <i class="ti-trash"></i>&nbsp;Cancel
+                                        </button>
+                                        <button type="submit" class="btn btn-sm btn-primary">
+                                            <i class="fa fa-upload"></i>&nbsp;Update
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- /.box -->
+                        </div>
+
+                    </div>
+                </section>
+                <!-- /.content -->
+            </div>
+        </div>
+
+        <!-- /.content-wrapper -->
+        <footer class="main-footer">
+            &copy; 2024
+            <a href="https://www.badjaabadisentosa.com/">PT. Badja Abadi Sentosa</a>. All Rights Reserved.
+        </footer>
+
+        <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
+        <div class="control-sidebar-bg"></div>
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- Calculator Modal -->
+    <div class="modal modal-calculator fade bs-example-modal-sm modal-calculator" tabindex="-1" role="dialog"
+        aria-labelledby="myModalCalculator" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalCalculator">Points Calculator</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">Dari jumlah transaksi Rp. 1000000 customer mendapat <span
+                        class="badge badge-danger">100 Pts</span></div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+
+    <!-- Notifications -->
+    <!-- <div id="alertbottomright" class="myadmin-alert myadmin-alert-img alert-primary myadmin-alert-bottom-right"
+		style="display:block;bottom:170px;width:350px;"> <img src="./images/images/notif-reminder.png" class="img" alt="img"><a href="#"
+			class="closed">&times;</a>
+		<h4>Service Reminder!</h4> <b>12 Barang</b> harus di service bulan ini.
+	</div>
+	<div id="alertbottomright" class="myadmin-alert myadmin-alert-img alert-danger myadmin-alert-bottom-right"
+		style="display:block;bottom:95px;width:350px;"> <img src="./images/images/notif-gift.png" class="img" alt="img"><a href="#"
+			class="closed">&times;</a>
+		<h4>Birthday Notifications</h4> <b>7 Customer</b> berulang tahun minggu ini.
+	</div>
+	<div id="alertbottomright" class="myadmin-alert myadmin-alert-img alert-warning myadmin-alert-bottom-right"
+		style="display:block;width:350px;"> <img src="./images/images/notif-redeem.png" class="img" alt="img"><a href="#"
+			class="closed">&times;</a>
+		<h4>Redeem Items!</h4> <b>5 Customer</b> melakukan redeem items.
+	</div> -->
+
+    <!-- Vendor JS -->
+    <script src="./js/vendors.min.js"></script>
+    <script src="./vendor/icons/feather-icons/feather.min.js"></script>
+
+    <!-- EduAdmin App -->
+    <script src="./js/template.js"></script>
+    <script src="js/pages/notification.js"></script>
+</body>
+
+</html>
