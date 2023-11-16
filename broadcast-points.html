@@ -449,15 +449,16 @@
                 <div class="content-header">
                     <div class="d-flex align-items-center">
                         <div class="me-auto">
-                            <h3 class="page-title">POINT RULES</h3>
+                            <h3 class="page-title">Broadcast Points</h3>
                             <div class="d-inline-block align-items-center">
                                 <nav>
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="#"><i class="icon-Deer"><span
                                                         class="path1"></span><span class="path2"></span></i></a>
                                         </li>
-                                        <li class="breadcrumb-item" aria-current="page">MASTER DATA</li>
-                                        <li class="breadcrumb-item active" aria-current="page">Point Rules</li>
+                                        <li class="breadcrumb-item" aria-current="page">APP</li>
+                                        <li class="breadcrumb-item" aria-current="page">Broadcast</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Points</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -467,36 +468,158 @@
                 <!-- Main content -->
                 <section class="content">
                     <div class="row">
-                        <div class="col-lg-6 col-12">
+                        <div class="col-lg-10 col-12">
                             <div class="box">
                                 <div class="box-header with-border">
-                                    <h4 class="box-title">Edit Point Rules</h4>
+                                    <h4 class="box-title">Broadcast Points Form</h4>
                                 </div>
                                 <!-- /.box-header -->
                                 <form class="form">
                                     <div class="box-body">
                                         <div class="form-group">
-                                            <label class="form-label">Rules</label>
+                                            <label class="form-label">Message</label>
+                                            <textarea rows="5" class="form-control"
+                                                placeholder="About Project">Hallo [customer] selamat anda mendapatkan [point] BAS Point. Silahkan tukarkan Point anda dengan berbagai hadiah menarik di tautan berikut: [url]</textarea>
+                                            <span class="help-block"><i>[customer], [point] & [url] akan diisi
+                                                    otomatis.</i></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label">Jumlah Point</label>
                                             <div class="input-group mb-3">
-                                                <input type="number" class="form-control" placeholder="0 IDR">
-                                                <span class="input-group-text"><img src="./images/images/coin.png" alt="Point" width="24px"></span>
+                                                <input type="number" class="form-control" placeholder="0">
+                                                <span class="input-group-text"><img src="./images/images/coin.png"
+                                                        alt="Point" width="24px"></span>
                                             </div>
-									        <span class="help-block"><i>For each [inputbox] Rp(IDR) assign 1 Points</i></span>
+                                            <span class="help-block"><i>For each [inputbox] Rp(IDR) assign 1
+                                                    Points</i></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label">Select Users</label>
+                                            <div class="input-group mb-3">
+                                                <div class="demo-radio-button">
+                                                    <input name="group1" type="radio" class="with-gap" id="radio_3" />
+                                                    <label for="radio_3">All Users</label>
+                                                    <input name="group1" type="radio" id="radio_4" class="with-gap" />
+                                                    <label for="radio_4">Some Users</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="media-list media-list-hover media-list-divided inner-user-div .bg-secondary-light"
+                                                style="height: 345px">
+                                                <div class="media media-single bg-primary-light">
+                                                    <a href="#">
+                                                        <img class="avatar avatar-lg rounded bg-success-light"
+                                                            src="./images/images/avatar/avatar-1.png" alt="...">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h6><a href="#">PT Goto Gojek Tokopedia Tbk</a></h6>
+                                                        <small class="text-fader">WA. +6287848263728</small>
+                                                    </div>
+                                                    <div class="media-right">
+                                                        <input type="checkbox" id="md_checkbox_1" class="filled-in chk-col-primary" checked />
+						                                <label for="md_checkbox_1">Checklist</label>	
+                                                    </div>
+                                                </div>
+                                                <div class="media media-single">
+                                                    <a href="#">
+                                                        <img class="avatar avatar-lg rounded"
+                                                            src="./images/images/avatar/avatar-2.png" alt="...">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h6><a href="#">PT Goto Gojek Tokopedia Tbk</a></h6>
+                                                        <small class="text-fader">WA. +6287848263728</small>
+                                                    </div>
+                                                    <div class="media-right">
+                                                        <input type="checkbox" id="md_checkbox_2" class="filled-in chk-col-primary"  />
+						                                <label for="md_checkbox_2">Checklist</label>	
+                                                    </div>
+                                                </div>
+                                                <div class="media media-single bg-primary-light">
+                                                    <a href="#">
+                                                        <img class="avatar avatar-lg rounded bg-success-light"
+                                                            src="./images/images/avatar/avatar-3.png" alt="...">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h6><a href="#">PT Goto Gojek Tokopedia Tbk</a></h6>
+                                                        <small class="text-fader">WA. +6287848263728</small>
+                                                    </div>
+                                                    <div class="media-right">
+                                                        <input type="checkbox" id="md_checkbox_3" class="filled-in chk-col-primary" checked />
+						                                <label for="md_checkbox_3">Checklist</label>	
+                                                    </div>
+                                                </div>
+                                                <div class="media media-single">
+                                                    <a href="#">
+                                                        <img class="avatar avatar-lg rounded"
+                                                            src="./images/images/avatar/avatar-4.png" alt="...">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h6><a href="#">PT Goto Gojek Tokopedia Tbk</a></h6>
+                                                        <small class="text-fader">WA. +6287848263728</small>
+                                                    </div>
+                                                    <div class="media-right">
+                                                        <input type="checkbox" id="md_checkbox_4" class="filled-in chk-col-primary"  />
+						                                <label for="md_checkbox_4">Checklist</label>	
+                                                    </div>
+                                                </div>
+                                                <div class="media media-single bg-primary-light">
+                                                    <a href="#">
+                                                        <img class="avatar avatar-lg rounded bg-success-light"
+                                                            src="./images/images/avatar/avatar-5.png" alt="...">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h6><a href="#">PT Goto Gojek Tokopedia Tbk</a></h6>
+                                                        <small class="text-fader">WA. +6287848263728</small>
+                                                    </div>
+                                                    <div class="media-right">
+                                                        <input type="checkbox" id="md_checkbox_5" class="filled-in chk-col-primary"  />
+						                                <label for="md_checkbox_5">Checklist</label>	
+                                                    </div>
+                                                </div>
+                                                <div class="media media-single">
+                                                    <a href="#">
+                                                        <img class="avatar avatar-lg rounded"
+                                                            src="./images/images/avatar/avatar-6.png" alt="...">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h6><a href="#">PT Goto Gojek Tokopedia Tbk</a></h6>
+                                                        <small class="text-fader">WA. +6287848263728</small>
+                                                    </div>
+                                                    <div class="media-right">
+                                                        <input type="checkbox" id="md_checkbox_6" class="filled-in chk-col-primary"  />
+						                                <label for="md_checkbox_6">Checklist</label>	
+                                                    </div>
+                                                </div>
+                                                <div class="media media-single bg-primary-light">
+                                                    <a href="#">
+                                                        <img class="avatar avatar-lg rounded bg-success-light"
+                                                            src="./images/images/avatar/avatar-7.png" alt="...">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h6><a href="#">PT Goto Gojek Tokopedia Tbk</a></h6>
+                                                        <small class="text-fader">WA. +6287848263728</small>
+                                                    </div>
+                                                    <div class="media-right">
+                                                        <input type="checkbox" id="md_checkbox_7" class="filled-in chk-col-primary" checked />
+						                                <label for="md_checkbox_7">Checklist</label>	
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- /.box-body -->
                                     <div class="box-footer">
-                                        <button class="btn btn-warning btn-sm me-1" type="reset">
-                                            <i class="ti-trash"></i>&nbsp;Cancel
-                                        </button>
-                                        <button type="submit" class="btn btn-sm btn-primary">
-                                            <i class="fa fa-upload"></i>&nbsp;Update
+                                        <button type="submit" class="btn btn-sm btn-danger">
+                                            <i class="icon-LTE1"><span class="path1"></span><span
+                                                    class="path2"></span></i>&nbsp;Broadcast Point
                                         </button>
                                     </div>
                                 </form>
                             </div>
                             <!-- /.box -->
                         </div>
+
                     </div>
                 </section>
                 <!-- /.content -->
@@ -554,7 +677,10 @@
 
     <!-- EduAdmin App -->
     <script src="./js/template.js"></script>
-    <script src="js/pages/notification.js"></script>
+    <script src="./js/pages/notification.js"></script>
+    <!-- broadcast-points  -->
+    <script src="./js/pages/list.js"></script>
+
 </body>
 
 </html>
