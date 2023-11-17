@@ -74,5 +74,5 @@
 	Link: https://rewards.badjaabadisentosa.com/member/redeem/{token}
 
 	notes:
-	di broadcast-points.html
+	di broadcast-points.html, redeem-voucher-page.html
 	ada yg beda di footernya
